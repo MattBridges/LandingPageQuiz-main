@@ -38,11 +38,7 @@ body {
   color: var(--cf-light) !important;
 }
 
-.btn-primary {
-  background-color: var(--cf-highlight);
-  color: var(--cf-dark);
-  border-color: var(--cf-highlight);
-}
+
 
 /* Call To Action */
 .mainHeader {
