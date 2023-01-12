@@ -20,8 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("/img/LandingPage_576.png");
-    background-position: top right;
+    background-position: top center;
     background-repeat: no-repeat;
+    
 }
 
 .content {
@@ -145,6 +146,7 @@ body {
   @media (min-width: 1400px) {
     body{
         background-image: url(/img/LandingPage_1920.png);
+        object-fit: cover;
     }
     .mainHeader-wrapper{
         padding-left: 3rem;
